@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Pacifico&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <title>Churrascômetro</title>
+</head>
+<body>
+
+    <div class="container" id="resultado">
+        <h1>CHURRASCÔMETRO</h1> <img id="fire" src="/Bagunça/Churrascômetro/c86709041d1a8a673ec6529f25eaac14.gif" alt="">
+        <input type="number" id="adultos" name="adultos" placeholder="ADULTOS">
+        <input type="number" id="criancas" name="criancas" placeholder="CRIANÇAS">
+        <input type="number" id="duracao" name="duracao" placeholder="DURAÇÃO">
+
+        <select id="playlist" name="playlist">
+            <option value="estilo musical" >ESTILO MUSICAL</option>
+            <option value="gospel" >GOSPEL</option>
+            <option value="sertanejo raiz" >SERTANEJO</option>
+            <option value="rock" >ROCK'N ROLL</option>
+            <option value="mpb" >MPB</option>
+            <option value="world music">WORLD MUSIC</option>
+            <option value="sortear" >SORTEAR UM ESTILO</option>
+        </select>
+
+    
+        
+        <button class='btn'onclick="calcular()" >VAMOS LÁ</button> 
+        <button class='btn' id="btnv">VOLTAR</button>
+        
+    </div>
+
+
+</body>
+</html>

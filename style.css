@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(/Bagunça/Churrascômetro/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    height: 96.7vh;
+}   
+
+.container {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 14px;
+    max-width: 450px;
+    margin: auto;
+    color: #62462b;
+    background-color:#98956c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 100px;
+    border: 5px solid #62462B ;
+    box-shadow: 4px 4px 5px  #000;
+    text-shadow: 4px 4px 4px  #000;
+}
+input {
+
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 1px;
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top: 15px;
+    width: 70%;
+    height: 18px;
+    padding: 5px;
+    background-color:#f0ecde;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 3px 3px 5px  #000;
+    
+}
+#resultado{
+    margin-top: 20px;
+    text-shadow: none;
+    text-align: center;
+}
+
+.btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 35px;
+    display: block;
+    border-radius: 5px;
+    background-color: #98956C;
+    color: #62462B;
+    font-family:'Bebas Neue', cursive;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px  #000;
+    transition: transform 200ms ease;
+    letter-spacing: 1px;
+    border: 3px solid #62462B;
+
+}
+#btnv{
+    display: block;
+    
+}
+.btn:hover{
+    transform: scale(1.07);
+}
+
+#fire{
+    max-width: 40px;
+    display: inline-block;
+    margin-top: -47px;
+    margin-left: 395px;
+    margin-bottom: 30px;
+}
+#playlist{
+
+    font-family: 'Press Start 2P', cursive;
+    /* letter-spacing: 1px; */
+    font-size: 12px;
+    color: #747474;
+    background-color:#f0ecde;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 3px 3px 5px  #000;
+
+    display: block;
+    margin: auto;
+    width: 250px;
+    margin-top: 25px;
+    padding: 8px;
+
+}
